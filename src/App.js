@@ -10,7 +10,7 @@ function App() {
     <div className="App">
      <h1>Incremnt / Decrement counter</h1>
      <div>
-      <button  onClick={ ()=>dispatch(decNum())}>-</button><span>{count}</span><button onClick={()=>dispatch(incNum())}>+</button>
+      <button  onClick={ ()=>dispatch(decNum())}>-</button><span>{count}</span><button onClick={()=>dispatch(incNum(10))}>+</button>
      </div>
     </div>
   );
